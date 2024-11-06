@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vroom.Consumer.Worker", "src\Vroom.Consumer.Worker\Vroom.Consumer.Worker.csproj", "{D91FA4E2-CBA3-47BB-8362-8A2B6A42E1A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{2CC8DA96-BFD9-4D68-BF1E-A6C9949E8904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{3F4380C7-685C-40F4-8684-771DA0E91AB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{B3E86523-080C-4DE3-BFD1-CA364B5D8B06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - CrossCutting", "04 - CrossCutting", "{C7F3DBE8-E3D9-4431-9FA7-E3413F97C169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "98 - Tests", "98 - Tests", "{67B3FE15-1BAC-417B-B04E-DC8D522FD43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.Consumer.Domain", "src\Vroom.Consumer.Domain\Vroom.Consumer.Domain.csproj", "{8861D0CF-5829-483F-B4BE-92188B240A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.Consumer.Data", "src\Vroom.Consumer.Data\Vroom.Consumer.Data.csproj", "{61B06064-2AA2-4445-B8D5-D1F02CA66993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.Consumer.IoC", "src\Vroom.Consumer.IoC\Vroom.Consumer.IoC.csproj", "{9003C663-E8A5-4463-AAE5-8F98AE3BDA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.Consumer.Messaging", "src\Vroom.Consumer.Messaging\Vroom.Consumer.Messaging.csproj", "{EABC0BB7-2361-4632-9C75-D4918D21997E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.Consumer.Shareable", "src\Vroom.Consumer.Shareable\Vroom.Consumer.Shareable.csproj", "{69481A8D-62CB-4AE4-917F-7D597D839093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.Consumer.Domain.Tests", "tests\Vroom.Consumer.Domain.Tests\Vroom.Consumer.Domain.Tests.csproj", "{3D295FA5-6162-49E4-BA30-155C62CFB094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D91FA4E2-CBA3-47BB-8362-8A2B6A42E1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91FA4E2-CBA3-47BB-8362-8A2B6A42E1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91FA4E2-CBA3-47BB-8362-8A2B6A42E1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91FA4E2-CBA3-47BB-8362-8A2B6A42E1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8861D0CF-5829-483F-B4BE-92188B240A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8861D0CF-5829-483F-B4BE-92188B240A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8861D0CF-5829-483F-B4BE-92188B240A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8861D0CF-5829-483F-B4BE-92188B240A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B06064-2AA2-4445-B8D5-D1F02CA66993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B06064-2AA2-4445-B8D5-D1F02CA66993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B06064-2AA2-4445-B8D5-D1F02CA66993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B06064-2AA2-4445-B8D5-D1F02CA66993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9003C663-E8A5-4463-AAE5-8F98AE3BDA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9003C663-E8A5-4463-AAE5-8F98AE3BDA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9003C663-E8A5-4463-AAE5-8F98AE3BDA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9003C663-E8A5-4463-AAE5-8F98AE3BDA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EABC0BB7-2361-4632-9C75-D4918D21997E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EABC0BB7-2361-4632-9C75-D4918D21997E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EABC0BB7-2361-4632-9C75-D4918D21997E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EABC0BB7-2361-4632-9C75-D4918D21997E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69481A8D-62CB-4AE4-917F-7D597D839093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69481A8D-62CB-4AE4-917F-7D597D839093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69481A8D-62CB-4AE4-917F-7D597D839093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69481A8D-62CB-4AE4-917F-7D597D839093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D295FA5-6162-49E4-BA30-155C62CFB094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D295FA5-6162-49E4-BA30-155C62CFB094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D295FA5-6162-49E4-BA30-155C62CFB094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D295FA5-6162-49E4-BA30-155C62CFB094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D91FA4E2-CBA3-47BB-8362-8A2B6A42E1A1} = {2CC8DA96-BFD9-4D68-BF1E-A6C9949E8904}
+		{8861D0CF-5829-483F-B4BE-92188B240A28} = {3F4380C7-685C-40F4-8684-771DA0E91AB4}
+		{61B06064-2AA2-4445-B8D5-D1F02CA66993} = {B3E86523-080C-4DE3-BFD1-CA364B5D8B06}
+		{9003C663-E8A5-4463-AAE5-8F98AE3BDA9D} = {C7F3DBE8-E3D9-4431-9FA7-E3413F97C169}
+		{EABC0BB7-2361-4632-9C75-D4918D21997E} = {C7F3DBE8-E3D9-4431-9FA7-E3413F97C169}
+		{69481A8D-62CB-4AE4-917F-7D597D839093} = {C7F3DBE8-E3D9-4431-9FA7-E3413F97C169}
+		{3D295FA5-6162-49E4-BA30-155C62CFB094} = {67B3FE15-1BAC-417B-B04E-DC8D522FD43D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B22C47B-CF95-49FB-BECE-69E7103D8E00}
+	EndGlobalSection
+EndGlobal
